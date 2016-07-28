@@ -1,0 +1,36 @@
+{
+  "name": "boast",
+  "version": "0.0.0",
+  "description": "Convenience methods wrapped around the npm package: Chalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha 'tests/**/*tests.js' --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HoltMansfield/boast-console.git"
+  },
+  "keywords": [
+    "Cosole",
+    "messages",
+    "errors",
+    "warnings"
+  ],
+  "author": "boast <holtmansfield@gmail.com> (http://boast.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HoltMansfield/boast-console/issues"
+  },
+  "homepage": "https://github.com/HoltMansfield/boast-console#readme",
+  "dependencies": {
+    "beepbeep": "^1.2.0",
+    "bluebird": "^3.4.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chalk": "^1.1.3",
+    "mocha": "^2.5.3",
+    "proxyquire": "^1.7.10",
+    "sinon": "^1.17.5"
+  }
+}

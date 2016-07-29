@@ -1,5 +1,5 @@
 {
-  "name": "boast",
+  "name": "boast-console",
   "version": "0.0.0",
   "description": "Convenience methods wrapped around the npm package: Chalk",
   "main": "index.js",
